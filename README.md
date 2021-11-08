@@ -49,7 +49,7 @@ In this course,  we will learn to create relational and NoSQL data models to fit
 
 Associated notebooks for this course can be found [here](###).
 
-Project 1 can be found [here](###). 
+Project 1 can be found [here](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Project-1-Data-Modeling-with-Postgres). 
 
 Project 2 can be found [here](###). 
 

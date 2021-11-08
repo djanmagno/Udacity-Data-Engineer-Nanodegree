@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
----
+
 <!-- Describing the project in brief -->
 
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the application, as well as a directory with JSON meta-data on the songs in their application.
@@ -76,17 +76,22 @@ Sample Record :
 
 
 ## Database Schema Design
----
-### Data Model ERD
 
-The Star Database Schema used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each event (user actions), and four dimensions tables, containing associated information such as user name, artist name, song meta-data etc. This model enables to search the database schema with the minimum number of  *SQL JOIN*s possible and enable fast read queries. The amount of data we need to analyze is not big enough to require big data solutions or NoSQL databases.
+### Database Entity Relationship Diagram 
 
-An entity relationship diagram (ERD) of the data model is given below. 
+The scheme used in this project was the Star Schema where we have Song Plays as a fact table that contains all the metrics (facts) associated with each event (user actions) and four other dimension tables that contain data related to the user, artist, songs and time data such as day, hour, etc.
+
+This approach is mostly used for relational data modeling, it allows us to have a search in a database using the minimum number of "Joins" in our queries which consequently generates quick reads.
+
+In this project, the amount of data used is not large enough for us to use a big data or NoSQL database solution.
+
+The Entity Relationship Diagram (ERD) of the data model is represented by the image
+below:
 
 ![database](images/erd_p1.png)
 
 ## Project structure
----
+
 Files in this repository:
 
 |  File / Folder   |                         Description                          |
@@ -105,11 +110,11 @@ Files in this repository:
 <!-- GETTING STARTED -->
 
 ## Getting Started
----
+
 Clone the repository into a local machine using
 
 ```sh
-git clone https://github.com/djanmagno/Udacity-Data-Engineering-Nanodegree
+git clone https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree
 ```
 
 ### Prerequisites
@@ -146,7 +151,7 @@ Follow the steps to extract and load the data into the data model.
 <!-- LICENSE -->
 
 ## License
----
+
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
@@ -154,7 +159,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 
 ## Contact
----
+
 Djan Magno - djan.magno@gmail.com
 
-Project Link - [https://github.com/djanmagno/Udacity-Data-Engineering-Nanodegree](https://github.com/djanmagno/Udacity-Data-Engineering-Nanodegree)
+Project Link - [https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Project-1-Data-Modeling-with-Postgres](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Project-1-Data-Modeling-with-Postgres)
