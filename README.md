@@ -35,7 +35,9 @@ Data engineers are responsible for making data accessible to all the people who 
 
 ## Certificate
 
-<img src="###" />
+<!-- <img src="###" /> -->
+
+TO BE DONE!
 
 
 
@@ -47,13 +49,13 @@ During this program,  we will complete four courses and five projects. Throughou
 
 In this course,  we will learn to create relational and NoSQL data models to fit the diverse needs of data consumers. In the project,  we will build SQL (Postgres) and NoSQL (Apache Cassandra) data models using user activity data for a music streaming app.
 
-Associated notebooks for this course can be found [here](###).
+Associated notebooks for this course can be found [here](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Notebook-Exercises).
 
 Project 1 can be found [here](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Project-1-Data-Modeling-with-Postgres). 
 
-Project 2 can be found [here](###). 
+Project 2 can be found [here](Not done yet). 
 
-#### **Course 2 – Cloud Data Warehouses**
+<!-- #### **Course 2 – Cloud Data Warehouses**
 
 In this course,  we will learn to create cloud-based data warehouses. In the project,  we will build an ELT pipeline that extracts data from Amazon S3, stages it in Amazon Redshift, and transforms it into a set of dimensional tables.
 
@@ -81,7 +83,7 @@ Project 5 can be found [here](###).
 
 Undecided project.
 
-Capstone Project can be found [here](###).
+Capstone Project can be found [here](###). -->
 
  
 
@@ -104,7 +106,7 @@ Djan Magno - djan.magno@gmail.com
 Project Link - [https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree)
 
 
-# Footer
+## Footer
 [(Back to top)](#table-of-contents)
 
 <!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
