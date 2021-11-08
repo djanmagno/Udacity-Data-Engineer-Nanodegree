@@ -30,7 +30,7 @@
 
 </p>
 
-> Postgresql, Data Engineering, ETL, Star Schema Database, Data Modeling
+> Data Engineering, Data Modeling, Postgresql, Relational Databases, ETL, Star Schema Database, 
 
 
 
@@ -90,20 +90,20 @@ below:
 
 ![database](images/erd_p1.png)
 
-## Project structure
+## Project Structure
 
-Files in this repository:
+Repository:
 
-|  File / Folder   |                         Description                          |
-| :--------------: | :----------------------------------------------------------: |
-|       data       | Folder at the root of the project, where all song and log data JSONS reside |
-|      images      |  Folder at the root of the project, where images are stored  |
-|  sql_queries.py  |      Contains the SQL queries for data modeling and ETL      |
-| create_tables.py |         Drops and creates tables. (Reset the tables)         |
-|    test.ipynb    |                Exploring the database tables                 |
-|    etl.ipynb     | Processes a file from song_data and log_data and loads the data into tables |
-|      etl.py      | Processes all files from song_data and log_data and loads them into  tables |
-|      README      |                         Readme file                          |
+| Files / Folders  |                                     Description                                              |
+| :--------------: | :------------------------------------------------------------------------------------------: |
+|    test.ipynb    | Displays the first few rows of each table to let you check your database.                    |
+| create_tables.py | Drops, creates and also reseting.                                                            |
+|    etl.ipynb     | Reads and processes a single file from song_data and log_data and loads the data into tables.|
+|      etl.py      | Reads and processes files from song_data and log_data and loads them into your tables.       |
+|  sql_queries.py  | Contains all your sql queries, and is imported into the last three files above.              |
+|       data       | Folder at the root of the project, with all songs and logs data JSONS.                       |
+|      images      | Folder with images used on the project.                                                      |
+|    README.md     | File with all instructions and descriptions of the project.                                                                              
 
 
 
@@ -119,7 +119,7 @@ git clone https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree
 
 ### Prerequisites
 
-These are the prerequisites to run the program.
+The prerequisites to run the program are:
 
 * python 3.9+
 * PostgreSQL
@@ -128,7 +128,7 @@ These are the prerequisites to run the program.
 
 ### How to run
 
-Follow the steps to extract and load the data into the data model.
+Follow the steps below to extract and load the data into the sparkify database on Postgres.
 
 1. Navigate to `Project-1-Data-Modeling-with-Postgres` folder
 
@@ -146,14 +146,17 @@ Follow the steps to extract and load the data into the data model.
 
 4. Check whether the data has been loaded into database by executing queries in `test.ipynb`
 
+### Project Requirements
 
+The requeriments for this project can be found on the image below.
+
+![Requeriments](images/review.udacity.com_.png)
 
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 
 
 <!-- CONTACT -->
