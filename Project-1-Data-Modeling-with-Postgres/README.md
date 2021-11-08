@@ -1,134 +1,160 @@
 <!-- Add banner here -->
-![Banner](Project-1-Data-Modeling-with-Postgres/images/header_project_01.png)
+![Banner](images/header_project_01.png)
 
 # Project Title
 
 <!-- Add buttons here -->
-![Language](https://img.shields.io/badge/language-python--3.9+-red) 
-![GitHub last commit](https://github.com/github/djanmagno/last-commit/Udacity-Data-Engineer-Nanodegree-green)
-[![Contributors][contributors-shield]](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/graphs/contributors-blue) 
-[![Forks][forks-shield]](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/network/members-grey)
-[![Issues][issues-shield]](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/issues-black) 
-[![MIT License][license-shield]](LICENCE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/djanmagno/-yellow)
+[![Language](https://img.shields.io/badge/Python-3.9%2B-brightgreen?style=flat&logo=Python)](https://www.python.org/downloads/release/python-365/) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/djanmagno/Udacity-Data-Engineer-Nanodegree?color=red&include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/djanmagno/Udacity-Data-Engineer-Nanodegree?color=yellow)
+![GitHub issues](https://img.shields.io/github/issues-raw/djanmagno/Udacity-Data-Engineer-Nanodegree?color=orange)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/djanmagno/Udacity-Data-Engineer-Nanodegree?color=blueviolet)
+![GitHub](https://img.shields.io/github/license/djanmagno/Udacity-Data-Engineer-Nanodegree?color=yellowgreen)
+[![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat&logo=Linkedin)](https://www.linkedin.com/in/djanmagno)
 
 <!-- PROJECT LOGO -->
 <br />
 
-<!-- Describe your project in brief -->
+<p align="center">
+ <a href="https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree">
+ </a>
+ <h2 align="center"><b>Data Modeling ETL with PostgreSQL</b></h2>
+ <p align="center">
+  Udacity Data Engineer Nanodegree Course Project 1
+  <br />
+  <a href=https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree><strong>Explore the repository»</strong></a>
+  <br />
+  <br />
+ </p>
 
-<!-- The project title should be self explanotory and try not to make it a mouthful. (Although exceptions exist- **awesome-readme-writing-guide-for-open-source-projects** - would have been a cool name)
-Add a cover/banner image for your README. **Why?** Because it easily **grabs people's attention** and it **looks cool**(*duh!obviously!*).
-The best dimensions for the banner is **1280x650px**. You could also use this for social preview of your repo.
-I personally use [**Canva**](https://www.canva.com/) for creating the banner images. All the basic stuff is **free**(*you won't need the pro version in most cases*).
-There are endless badges that you could use in your projects. And they do depend on the project. Some of the ones that I commonly use in every projects are given below. 
-I use [**Shields IO**](https://shields.io/) for making badges. It is a simple and easy to use tool that you can use for almost all your badge cravings. -->
 
-<!-- Some badges that you could use -->
 
-<!-- ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
-: This badge shows the version of the current release.
-![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
-: I think it is self-explanatory. This gives people an idea about how the project is being maintained.
-![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
-: This is a dynamic badge from [**Shields IO**](https://shields.io/) that tracks issues in your project and gets updated automatically. It gives the user an idea about the issues and they can just click the badge to view the issues.
-![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
-: This is also a dynamic badge that tracks pull requests. This notifies the maintainers of the project when a new pull request comes.
-![GitHub All Releases](https://img.shields.io/github/downloads/navendu-pottekkat/awesome-readme/total): If you are not like me and your project gets a lot of downloads(*I envy you*) then you should have a badge that shows the number of downloads! This lets others know how **Awesome** your project is and is worth contributing to.
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-: This shows what kind of open-source license your project uses. This is good idea as it lets people know how they can use your project for themselves.
-![Tweet](https://img.shields.io/twitter/url?style=flat-square&logo=twitter&url=https%3A%2F%2Fnavendu.me%2Fnsfw-filter%2Findex.html): This is not essential but it is a cool way to let others know about your project! Clicking this button automatically opens twitter and writes a tweet about your project and link to it. All the user has to do is to click tweet. Isn't that neat? -->
+</p>
 
-# Demo-Preview
+> Postgresql, Data Engineering, ETL, Star Schema Database, Data Modeling
 
-<!-- Add a demo for your project -->
 
-<!-- After you have written about your project, it is a good idea to have a demo/preview(**video/gif/screenshots** are good options) of your project so that people can know what to expect in your project. You could also add the demo in the previous section with the product description.
-Here is a random GIF as a placeholder.
-![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif) -->
 
-# Table of contents
+<!-- ABOUT THE PROJECT -->
 
-<!-- After you have introduced your project, it is a good idea to add a **Table of contents** or **TOC** as **cool** people say it. This would make it easier for people to navigate through your README and find exactly what they are looking for.
-Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README. -->
+## About The Project
+---
+<!-- Describing the project in brief -->
 
-- [Project Title](#project-title)
-- [Demo-Preview](#demo-preview)
-- [Table of contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [Contribute](#contribute)
-    - [Sponsor](#sponsor)
-    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
-- [License](#license)
-- [Footer](#footer)
+A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming application. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the application, as well as a directory with JSON meta-data on the songs in their application.
 
-# Installation
-[(Back to top)](#table-of-contents)
+They'd like a data engineer to create a Postgres database with tables designed to optimize queries on song play analysis. The role of this project is to create a database schema and ETL pipeline for this analysis. 
 
-<!-- *You might have noticed the **Back to top** button(if not, please notice, it's right there!). This is a good idea because it makes your README **easy to navigate.*** 
-The first one should be how to install(how to generally use your project or set-up for editing in their machine).
-This should give the users a concrete idea with instructions on how they can use your project repo with all the steps.
-Following this steps, **they should be able to run this in their device.**
-A method I use is after completing the README, I go through the instructions from scratch and check if it is working. -->
+### Project Description
 
-<!-- Here is a sample instruction:
-To use this project, first clone the repo on your device using the command below:
-```git init```
-```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
+In this project, we will model the data with Postgres and build an ETL pipeline using Python. The fact and dimension tables for a star database schema for a particular analytic focus is defined, and an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL was developed.
 
-# Usage
-[(Back to top)](#table-of-contents)
+### Built With:
 
-<!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
+* Python
+* PostgreSQL
+* Jupyter Notebooks
 
-# Development
-[(Back to top)](#table-of-contents)
+> You will not be able to run **test.ipynb**, **etl.ipynb**, or **etl.py** until you have run **create_tables.py** at least once to create the *sparkifydb* database, which these other files connect to. Always, close the connection to the database on exit. 
 
-<!-- This is the place where you give instructions to developers on how to modify the code.
-You could give **instructions in depth** of **how the code works** and how everything is put together.
-You could also give specific instructions to how they can setup their development environment.
-Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
+### Dataset
+#### Song Dataset
+Songs dataset is a subset of [Million Song Dataset](http://millionsongdataset.com/).  Each file in the dataset is in JSON format and contains meta-data about a song and the artist of that song. 
 
-# Contribute
-[(Back to top)](#table-of-contents)
+Sample Record :
+```
+{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
+```
 
-<!-- This is where you can let people know how they can **contribute** to your project. Some of the ways are given below.
-Also this shows how you can add subsections within a section. -->
+#### Log Dataset
+Logs dataset is generated by [Event Simulator](https://github.com/Interana/eventsim).  These log files in JSON format simulate activity logs from a music streaming application based on specified configurations.
 
-### Sponsor
-[(Back to top)](#table-of-contents)
+Sample Record :
+```
+{"artist": null, "auth": "Logged In", "firstName": "Walter", "gender": "M", "itemInSession": 0, "lastName": "Frye", "length": null, "level": "free", "location": "San Francisco-Oakland-Hayward, CA", "method": "GET","page": "Home", "registration": 1540919166796.0, "sessionId": 38, "song": null, "status": 200, "ts": 1541105830796, "userAgent": "\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"", "userId": "39"}
+```
 
-<!-- Your project is gaining traction and it is being used by thousands of people(***with this README there will be even more***). Now it would be a good time to look for people or organisations to sponsor your project. This could be because you are not generating any revenue from your project and you require money for keeping the project alive.
-You could add how people can sponsor your project in this section. Add your patreon or GitHub sponsor link here for easy access.
-A good idea is to also display the sponsors with their organisation logos or badges to show them your love!(*Someday I will get a sponsor and I can show my love*) -->
 
-### Adding new features or fixing bugs
-[(Back to top)](#table-of-contents)
 
-<!-- This is to give people an idea how they can raise issues or feature requests in your projects. 
-You could also give guidelines for submitting and issue or a pull request to your project.
-Personally and by standard, you should use a [issue template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/ISSUE_TEMPLATE.md) and a [pull request template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/PULL_REQ_TEMPLATE.md)(click for examples) so that when a user opens a new issue they could easily format it as per your project guidelines.
-You could also add contact details for people to get in touch with you regarding your project. -->
+## Database Schema Design
+---
+### Data Model ERD
 
-# License
-[(Back to top)](#table-of-contents)
+The Star Database Schema used for data modeling in this ETL pipeline. There is one fact table containing all the metrics (facts) associated to each event (user actions), and four dimensions tables, containing associated information such as user name, artist name, song meta-data etc. This model enables to search the database schema with the minimum number of  *SQL JOIN*s possible and enable fast read queries. The amount of data we need to analyze is not big enough to require big data solutions or NoSQL databases.
 
-<!-- Adding the license to README is a good practice so that people can easily refer to it.
-Make sure you have added a LICENSE file in your project folder. **Shortcut:** Click add new file in your root of your repo in GitHub > Set file name to LICENSE > GitHub shows LICENSE templates > Choose the one that best suits your project!
-I personally add the name of the license and provide a link to it like below. -->
+An entity relationship diagram (ERD) of the data model is given below. 
 
-[GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
+![database](images/erd_p1.png)
 
-# Footer
-[(Back to top)](#table-of-contents)
+## Project structure
+---
+Files in this repository:
 
-<!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
-Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
+|  File / Folder   |                         Description                          |
+| :--------------: | :----------------------------------------------------------: |
+|       data       | Folder at the root of the project, where all song and log data JSONS reside |
+|      images      |  Folder at the root of the project, where images are stored  |
+|  sql_queries.py  |      Contains the SQL queries for data modeling and ETL      |
+| create_tables.py |         Drops and creates tables. (Reset the tables)         |
+|    test.ipynb    |                Exploring the database tables                 |
+|    etl.ipynb     | Processes a file from song_data and log_data and loads the data into tables |
+|      etl.py      | Processes all files from song_data and log_data and loads them into  tables |
+|      README      |                         Readme file                          |
 
-Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
 
-<!-- Add the footer here -->
 
-<!-- ![Footer](https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png) -->
+<!-- GETTING STARTED -->
+
+## Getting Started
+---
+Clone the repository into a local machine using
+
+```sh
+git clone https://github.com/djanmagno/Udacity-Data-Engineering-Nanodegree
+```
+
+### Prerequisites
+
+These are the prerequisites to run the program.
+
+* python 3.9+
+* PostgreSQL
+* psycopg2 python library
+* pandas library
+
+### How to run
+
+Follow the steps to extract and load the data into the data model.
+
+1. Navigate to `Project-1-Data-Modeling-with-Postgres` folder
+
+2. Run `create_tables.py` to create/reset the tables by
+
+   ```python
+   python create_tables.py
+   ```
+
+3. Run ETL process and load data into database by 
+
+   ```python
+   python etl.py
+   ```
+
+4. Check whether the data has been loaded into database by executing queries in `test.ipynb`
+
+
+
+<!-- LICENSE -->
+
+## License
+---
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+
+## Contact
+---
+Djan Magno - djan.magno@gmail.com
+
+Project Link - [https://github.com/djanmagno/Udacity-Data-Engineering-Nanodegree](https://github.com/djanmagno/Udacity-Data-Engineering-Nanodegree)

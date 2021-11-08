@@ -18,15 +18,14 @@
 </p>
 
 <!-- Add buttons here -->
-![Language](https://img.shields.io/badge/language-python--3.9+-red) 
-![GitHub last commit](https://github.com/github/djanmagno/last-commit/Udacity-Data-Engineer-Nanodegree-green)
-[![Contributors][contributors-shield]](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/graphs/contributors-blue) 
-[![Forks][forks-shield]](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/network/members-grey)
-[![Issues][issues-shield]](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/issues-black) 
-[![MIT License][license-shield]](LICENSE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/djanmagno/-yellow)
+[![Language](https://img.shields.io/badge/Python-3.9%2B-brightgreen?style=flat&logo=Python)](https://www.python.org/downloads/release/python-365/) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/djanmagno/Udacity-Data-Engineer-Nanodegree?color=red&include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/djanmagno/Udacity-Data-Engineer-Nanodegree?color=yellow)
+![GitHub issues](https://img.shields.io/github/issues-raw/djanmagno/Udacity-Data-Engineer-Nanodegree?color=orange)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/djanmagno/Udacity-Data-Engineer-Nanodegree?color=blueviolet)
+![GitHub](https://img.shields.io/github/license/djanmagno/Udacity-Data-Engineer-Nanodegree?color=yellowgreen)
+[![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat&logo=Linkedin)](https://www.linkedin.com/in/djanmagno)
 
-> postgres, cassandra, aws, redshift, s3, emr, spark, airflow, ETL, ELT, data modelling, database schema, data warehousing, data lakes, data engineering, udacity
+> Postgres, Cassandra, AWS, RedShift, S3, EMR, Spark, Airflow, ETL, ELT, Data Modelling, Database Schema, Data Warehousing, Data Lakes, Data Engineering, Udacity
 
 ## About The Nanodegree
 
@@ -102,7 +101,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Djan Magno - djan.magno@gmail.com
 
-Project Link: [https://github.com/vineeths96/Data-Engineering-Nanodegree](https://github.com/vineeths96/Data-Engineering-Nanodegree)
+Project Link - [https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree)
 
 
 # Footer
@@ -115,4 +114,4 @@ Leave a star in GitHub, give a clap in Medium and share this guide if you found 
 
 <!-- Add the footer here -->
 
-![Footer](images/udacity_footer.png)
+![Footer](images/footer.png)
