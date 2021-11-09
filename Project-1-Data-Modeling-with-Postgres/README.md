@@ -135,13 +135,13 @@ Follow the steps below to extract and load the data into the sparkify database o
 2. Run `create_tables.py` to create/reset the tables by
 
    ```python
-   python create_tables.py
+   python3 create_tables.py
    ```
 
 3. Run ETL process and load data into database by 
 
    ```python
-   python etl.py
+   python3 etl.py
    ```
 
 4. Check whether the data has been loaded into database by executing queries in `test.ipynb`
@@ -151,6 +151,13 @@ Follow the steps below to extract and load the data into the sparkify database o
 The requeriments for this project can be found on the image below.
 
 ![Requeriments](images/review.udacity.com_.png)
+
+#### Query to evaluate the requeriment :
+  - It’s okay if there are some null values for song titles and artist names in the songplays table. There is only 1 actual row that will have a songid and an artistid.
+
+```
+    SELECT * FROM songplays WHERE artist_id <> 'None';
+```
 
 <!-- LICENSE -->
 

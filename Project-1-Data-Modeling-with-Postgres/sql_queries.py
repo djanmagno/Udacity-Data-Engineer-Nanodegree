@@ -12,14 +12,14 @@ songplay_table_create = ("""
     CREATE TABLE IF NOT EXISTS songplays 
         (
             songplay_id SERIAL NOT NULL, 
-            start_time TIMESTAMP, 
-            user_id INT, 
-            level VARCHAR, 
+            start_time TIMESTAMP NOT NULL, 
+            user_id INT NOT NULL, 
+            level VARCHAR NOT NULL, 
             song_id VARCHAR, 
             artist_id VARCHAR, 
-            session_id INT, 
-            location VARCHAR, 
-            user_agent VARCHAR,
+            session_id INT NOT NULL, 
+            location VARCHAR NOT NULL, 
+            user_agent VARCHAR NOT NULL,
             PRIMARY KEY (songplay_id)        
         );
 """)
@@ -28,10 +28,10 @@ user_table_create = ("""
     CREATE TABLE IF NOT EXISTS users
         (
             user_id INT NOT NULL, 
-            first_name VARCHAR, 
-            last_name VARCHAR, 
-            gender CHAR(1), 
-            level VARCHAR,
+            first_name VARCHAR NOT NULL, 
+            last_name VARCHAR NOT NULL, 
+            gender CHAR(1) NOT NULL, 
+            level VARCHAR NOT NULL,
             PRIMARY KEY (user_id)
         );
 """)
@@ -40,8 +40,8 @@ artist_table_create = ("""
     CREATE TABLE IF NOT EXISTS artists
         (
             artist_id VARCHAR NOT NULL,
-            name VARCHAR,
-            location VARCHAR,
+            name VARCHAR NOT NULL,
+            location VARCHAR NOT NULL,
             latitude NUMERIC,
             longitude NUMERIC,
             PRIMARY KEY (artist_id)
@@ -52,9 +52,9 @@ song_table_create = ("""
     CREATE TABLE IF NOT EXISTS songs
         (
             song_id VARCHAR NOT NULL,
-            title VARCHAR,
-            artist_id VARCHAR,
-            year INT CHECK (year >= 0),
+            title VARCHAR NOT NULL,
+            artist_id VARCHAR NOT NULL,
+            year INT CHECK (year >= 0) NOT NULL,
             duration NUMERIC NOT NULL,
             PRIMARY KEY (song_id)
         );
@@ -64,12 +64,12 @@ time_table_create = ("""
     CREATE TABLE IF NOT EXISTS time
         (
             start_time TIMESTAMP NOT NULL CHECK (start_time >= '1900-01-01'),
-            hour INT CHECK (hour >= 0),
-            day INT CHECK (day > 0),
-            week INT CHECK (week > 0),
-            month INT CHECK (month > 0),
-            year INT CHECK (year >= 0),
-            weekday INT CHECK (weekday >= 0),
+            hour INT NOT NULL CHECK (hour >= 0),
+            day INT NOT NULL CHECK (day > 0),
+            week INT NOT NULL CHECK (week > 0),
+            month INT NOT NULL CHECK (month > 0),
+            year INT NOT NULL CHECK (year >= 0),
+            weekday INT NOT NULL CHECK (weekday >= 0),
             PRIMARY KEY (start_time)
         );
 """)
