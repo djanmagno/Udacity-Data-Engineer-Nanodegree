@@ -91,6 +91,7 @@ Repository:
 | :--------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
 |                 event_data               | Directory of CSV files partitioned by date with informations of user activity.                              |
 |           event_datafile_new.csv         | CSV file which contains all informations from the files of event_data folder.                               |
+|               functions_p2.py            | File with functions used to create and insert values on tables of Apache Cassandra.                         |
 |                   images                 | Folder with images used on the project.                                                                     |
 | Project-2-DM-with-Apache-Cassandra.ipynb | Jupiter Notebook WITH the ETL pipeline FOR data extraction, modeling and loading into the keyspace tables.  |
 |                 README.md                | File with all instructions and descriptions of the project.                                                 |
@@ -122,9 +123,9 @@ Follow the steps below to extract and load the data into the sparkify database o
 
 2. Open `Project-2-DM-with-Apache-Cassandra.ipynb` Jupiter Notebook.
 
-3. Run Part 1 ETL pipeline for pre-processing files to create the event_datafile_new.csv file.
+3. Run Part 1 ETL pipeline for pre-processing files to create the `event_datafile_new.csv` file.
    
-4. Run Part 2 to initiate the ETL process and load data into the tables created in the sparkifi_ks keyspace.
+4. Run Part 2 to initiate the ETL process and load data into the tables created in the **sparkifi_ks** keyspace.
 
 5. Check whether the data was loaded into database by executing the three SELECT queries indicated. 
 

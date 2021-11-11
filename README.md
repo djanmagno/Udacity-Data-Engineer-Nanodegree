@@ -53,7 +53,7 @@ Associated notebooks for this course can be found [here](https://github.com/djan
 
 Project 1 can be found [here](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Project-1-Data-Modeling-with-Postgres). 
 
-Project 2 can be found [here](Not done yet). 
+Project 2 can be found [here]([Not done yet](https://github.com/djanmagno/Udacity-Data-Engineer-Nanodegree/tree/master/Project-2-Data-Modeling-with-Apache-Cassandra).
 
 <!-- #### **Course 2 – Cloud Data Warehouses**
 
